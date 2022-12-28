@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #dd783f;
+  --text-color: #333;
+  --title-color: #efefef;
+  --gray-color: #808285;
+  --btn-color: hsla(0, 0%, 100%, 0.28);
+  --content-color: #f7f7f7;
+  --footer-color: rgba(35, 47, 56, 0.6);
+}
