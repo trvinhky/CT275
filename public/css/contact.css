@@ -1,0 +1,40 @@
+@import "variables.css";
+
+.contact-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-text {
+  font-size: 16px;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-item {
+  padding: 6px 0;
+}
+
+.contact-item__link:hover {
+  color: var(--primary-color);
+}
+
+.contact-form .form-control:focus {
+  outline: none;
+  box-shadow: unset;
+}
+
+.contact-btn {
+  color: #fff;
+  background-color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #f17228;
+}
