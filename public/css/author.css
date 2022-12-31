@@ -7,10 +7,24 @@
 .author-avatar {
   border-radius: 5px;
   overflow: hidden;
+  height: auto;
 }
 
 .author {
   padding: 40px 0;
+}
+
+@media (max-width: 820px) {
+  .author-avatar {
+    --size: 200px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+  }
+
+  .author {
+    padding: 0;
+  }
 }
 
 .author-name {
