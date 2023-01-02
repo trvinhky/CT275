@@ -1,0 +1,88 @@
+@import "variables.css";
+
+.add-new {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-new i {
+  color: #ced4da;
+  border: 1px solid currentColor;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+
+.add-new i:hover {
+  color: var(--text-color);
+}
+
+.create-content__main {
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  padding-top: 20px;
+  margin: 20px 0;
+}
+
+.create-label {
+  font-size: 20px;
+}
+
+.create-input:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+.preview-image label {
+  width: 100%;
+  height: 200px;
+  border: 1px dashed #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview-image label:hover {
+  color: var(--primary-color);
+}
+
+.create-complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.create-btn {
+  font-size: 20px;
+  padding: 10px 25px;
+  color: var(--title-color);
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.create-btn:hover {
+  opacity: 1;
+}
+
+.create-btn--cancel {
+  background-color: #eb4d4b;
+}
+
+.create-btn--post {
+  background-color: var(--primary-color);
+}

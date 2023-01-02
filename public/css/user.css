@@ -1,1 +1,211 @@
 @import "variables.css";
+
+/* left */
+.user-nav__top {
+  text-align: center;
+  padding: 40px 0 30px;
+}
+
+.user-avatar {
+  border: 1px solid var(--gray-color);
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.user-name {
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+.user-nav__list {
+  font-size: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.user-item__link {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--title-color);
+  transition: 0.3s;
+}
+
+.user-item__link:hover,
+.user-item__link.active {
+  color: var(--primary-color);
+  border-color: currentColor;
+}
+
+/* right */
+.user-content {
+  padding: 40px 0 30px;
+}
+
+.user-content__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.user-title {
+  text-transform: capitalize;
+}
+
+.user-group {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.user-group__background {
+  position: relative;
+  background-image: url("../images/home/header.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+.user-icon {
+  position: absolute;
+  margin-bottom: 0;
+  font-size: 25px;
+  cursor: pointer;
+  text-shadow: 0 1px 0 #333;
+}
+
+.user-icon--background {
+  bottom: 4px;
+  right: 10px;
+  color: var(--title-color);
+}
+
+.user-group__avatar {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  --size: 150px;
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid var(--title-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 1px 0 0 var(--gray-color);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.user-icon--avatar {
+  color: var(--gray-color);
+  bottom: 0;
+  right: 0;
+}
+
+.form-group {
+  font-size: 20px;
+}
+
+.user-update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-update__btn {
+  min-width: 100px;
+  padding: 6px 0;
+  background-color: var(--primary-color);
+  color: var(--title-color);
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  opacity: 0.9;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.user-update__btn:hover {
+  opacity: 1;
+}
+
+/* post */
+.user-post {
+  transition: 0.3s;
+}
+
+.user-post:hover {
+  color: var(--primary-color);
+}
+
+.post-box {
+  margin-bottom: 30px;
+}
+
+.post-box__title {
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.post-group {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.post-group__card {
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.post-group__card img {
+  width: 40%;
+  border-radius: 5px;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.post-text h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.post-text span {
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.post-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+}
