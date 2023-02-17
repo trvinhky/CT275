@@ -127,7 +127,7 @@ img {
   --size: 40px;
   width: var(--size);
   height: var(--size);
-  border: 2px solid currentColor;
+  border: 1px solid currentColor;
   border-radius: 50%;
   cursor: pointer;
   margin-left: 10px;
@@ -141,6 +141,10 @@ img {
 .user:hover {
   color: var(--title-color);
   opacity: 1;
+}
+
+.dropdown-toggle::after {
+  display: none;
 }
 
 .header-content {
